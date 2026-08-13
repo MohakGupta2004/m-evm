@@ -1,0 +1,25 @@
+{
+  "name": "m-evm",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "test:unit": "vitest run --dir tests/unit",
+    "test:unit:watch": "vitest watch --dir tests/unit",
+    "test:unit:coverage": "vitest run --dir tests/unit --coverage",
+    "format": "prettier --write .",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.9.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "husky": "^9.1.7",
+    "vitest": "^4.1.10"
+  }
+}

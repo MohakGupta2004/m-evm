@@ -1,2 +1,2 @@
-# m-evm
-# m-evm
+# A mini EVM in typescript
+- [ ] Setting up typescript
