@@ -1,0 +1,3 @@
+const WORD_BITS = 256n;
+const WORD_MODULUS = 2n ** WORD_BITS;
+const WORD_MAX = WORD_MODULUS - 1n;
